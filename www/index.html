@@ -1,0 +1,74 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>WSPRHTTP by F4HTB</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body onload="bodyload();">
+	
+	<div id="MasterContent">
+		<div id="Menu">
+			<a href="#STATUS" class="a_activate" onmouseup="togle_M();GetWsprInfo();GetGPSInfo();GetConf();">STATUS</a>
+			<a href="#WSPR" class="a_deactivate" onmouseup="togle_M();GetWsprInfo();">WSPR</a>
+			<a href="#GPS" class="a_deactivate" onmouseup="togle_M();GetGPSInfo();">GPS</a>
+			<a href="#CONF" class="a_deactivate" onmouseup="togle_M();GetConf();">CONF</a>		
+		</div>
+		<div id="Content">
+			<div id="CONF">
+				<form action="" method="get" id="formsetconf">
+					<br>
+					[SERVER]<br>
+					<label for="port">port: </label><input type="text" name="SERVER:port" id="SERVER:port" value="" required><br>
+					<label for="log_file">log_file: </label><input type="text" name="SERVER:log_file" id="SERVER:log_file" value="" required><br>
+					<br>
+					[BEACON]<br>
+					<label for="callsign">callsign: </label><input type="text" name="BEACON:callsign" id="BEACON:callsign" value="" required><br>
+					<label for="locator">locator: </label><input type="text" name="BEACON:locator" id="BEACON:locator" value="" required><br>
+					<label for="tx_pwr_dbm">tx_pwr_dbm: </label><input type="text" name="BEACON:tx_pwr_dbm" id="BEACON:tx_pwr_dbm" value="" required><br>
+					<label for="frequencies">frequencies: </label><input type="text" name="BEACON:frequencies" id="BEACON:frequencies" value="" required><br>
+					LF LF-15 MF MF-15 160m 160m-15 80m 60m 40m 30m 20m 17m 15m 12m 10m 6m 4m 2m<br>
+					<label for="wsprexec">wsprexec: </label><input type="text" name="BEACON:wsprexec" id="BEACON:wsprexec" value="" required><br>
+					<br>
+					[GPS]<br>
+					<label for="serialport">serialport: </label><input type="text" name="GPS:serialport" id="GPS:serialport" value="" required><br>
+					<label for="baudrate">baudrate: </label><input type="text" name="GPS:baudrate" id="GPS:baudrate" value="" required><br>
+					<label for="timeout">timeout: </label><input type="text" name="GPS:timeout" id="GPS:timeout" value="" required><br>
+					<input type="submit" id="ButtonSendConf" onmouseup="sendData();" value="Apply"><input type="submit" id="ButtonSRestartServer" value="Restart">
+				</form>
+				
+			</div>
+			<div id="GPS">
+			</div>
+			<div id="WSPR">
+			</div>
+			<div id="STATUS">
+			<br>
+			<br>
+			<input type="radio" id="WSPROn" name="drone" value="huey">
+			<label for="WSPROn">WSPR On</label>
+			<input type="radio" id="WSPROff" name="drone" value="dewey">
+			<label for="WSPROff">WSPR Off</label>
+			<br>
+			<br>
+			Actual Time: <label id="stat:actualtime"></label><br>
+			Refresh time of informations: <label id="stat:infotime"></label><br>
+			GPS: <label id="stat:GPS"></label><br>
+			PPM: <label id="stat:PPM"></label><br>
+			Callsign: <label id="stat:callsign"></label><br>
+			Locator: <label id="stat:locator"></label><br>
+			Power in dBm: <label id="stat:tx_pwr_dbm"></label><br>
+			Frequencies cycle: <label id="stat:frequencies"></label><br>
+			TX: <label id="stat:WsprTX"></label><br>
+			TX mode: <label id="stat:WsprMode"></label><br>
+			Actual Frequency: <label id="stat:CurFreq"></label><br>
+			<br>
+			<label for="TestTone">TestTone On: </label>
+			<input type="text" name="WSPR:TESTTONE" id="WSPR:TESTTONE" value="28020000">
+			<input type="submit" id="WSPRStartTestTone" value="WSPR Start TestTone"><input type="submit" id="WSPRSStopTestTone" value="WSPRS Stop TestTone"><br><br>
+			</div>
+		</div>
+	</div>
+	
+	<script src="controls.js"></script>
+	</body>
+</html>
