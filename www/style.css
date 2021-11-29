@@ -23,11 +23,11 @@ body {
 } 
 
 #Menu .a_activate{
-	border: 0.1em outset #BBB;
-	border-bottom: 0.1em solid #CCC;
+	border: 2px outset #BBB;
+	border-bottom: 2px solid #CCC;
 	text-decoration: none;
 	padding: 0px 5px 0px 5px;
-	font-size: 25px;
+	font-size: 50px;
 	color: green;
 	background-color:#ccc;
 }
@@ -37,23 +37,72 @@ body {
     background: #999;
 	text-decoration: none;
 	padding: 0px 5px 0px 5px;
-	font-size: 20px;
+	font-size: 40px;
 	color: green;
 }
 
 #Content {
-	border: 0.1em outset #BBB;
+	border: 2px outset #BBB;
 	background: #CCC;
     margin-top: 0px;
 	margin-left: 30px;
 	width: 720px;
-	height: 510px; 
+	height: 480px; 
 	border-radius: 0px 30px 30px 30px ;
 	padding:10px;
+	font-size: 20px;
 } 
+
+#Content input{
+	font-size: 20px;
+}
 
 #Content div{display: none}
 #Content div:target{display: block}
 
+#wsprprocstdout{
+	background: #999;
+	width: 720px;
+	height: 400px; 
+}
 
+#ConfButton{
+	position: absolute;
+	bottom: 20px; right: 50px;
+	text-align:right;
+}
+
+#LWSPROn{
+	font-size: 30px;
+}
+
+.wspron_activate{
+	background-color:green;
+	border-radius: 3px;
+}
+
+.wspron_deactivate{
+	background-color:#CCC;
+	border-radius: 3px;
+	color:black;
+}
+
+#LWSPROff{
+	font-size: 30px;
+}
+
+
+#percentcan{
+	position: absolute;
+	top: 18px; right: 25px;
+	text-align:right;
+	background-color: black;
+}
+
+#logo{
+	position: absolute;
+	top: 30px; right: 120px;
+	width: 75px;
+	height: 30px;
+}
 

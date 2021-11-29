@@ -11,12 +11,13 @@
 			<a href="#STATUS" class="a_activate" onmouseup="togle_M();GetWsprInfo();GetGPSInfo();GetConf();">STATUS</a>
 			<a href="#WSPR" class="a_deactivate" onmouseup="togle_M();GetWsprInfo();">WSPR</a>
 			<a href="#GPS" class="a_deactivate" onmouseup="togle_M();GetGPSInfo();">GPS</a>
-			<a href="#CONF" class="a_deactivate" onmouseup="togle_M();GetConf();">CONF</a>		
+			<a href="#CONF" class="a_deactivate" onmouseup="togle_M();GetConf();">CONF</a>	
+			<img src="logo.png" id="logo">
+			<canvas id="percentcan" width="50" height="50" />			
 		</div>
 		<div id="Content">
 			<div id="CONF">
 				<form action="" method="get" id="formsetconf">
-					<br>
 					[SERVER]<br>
 					<label for="port">port: </label><input type="text" name="SERVER:port" id="SERVER:port" value="" required><br>
 					<label for="log_file">log_file: </label><input type="text" name="SERVER:log_file" id="SERVER:log_file" value="" required><br>
@@ -33,38 +34,42 @@
 					<label for="serialport">serialport: </label><input type="text" name="GPS:serialport" id="GPS:serialport" value="" required><br>
 					<label for="baudrate">baudrate: </label><input type="text" name="GPS:baudrate" id="GPS:baudrate" value="" required><br>
 					<label for="timeout">timeout: </label><input type="text" name="GPS:timeout" id="GPS:timeout" value="" required><br>
+					<p id="ConfButton">
 					<input type="submit" id="ButtonSendConf" onmouseup="sendData();" value="Apply"><input type="submit" id="ButtonSRestartServer" value="Restart">
+					</p>
 				</form>
 				
 			</div>
 			<div id="GPS">
 			</div>
 			<div id="WSPR">
+			Stdout from wspr process:
+			<p id="wsprprocstdout"></p>
 			</div>
 			<div id="STATUS">
-			<br>
-			<br>
-			<input type="radio" id="WSPROn" name="drone" value="huey">
-			<label for="WSPROn">WSPR On</label>
-			<input type="radio" id="WSPROff" name="drone" value="dewey">
-			<label for="WSPROff">WSPR Off</label>
-			<br>
-			<br>
-			Actual Time: <label id="stat:actualtime"></label><br>
-			Refresh time of informations: <label id="stat:infotime"></label><br>
-			GPS: <label id="stat:GPS"></label><br>
-			PPM: <label id="stat:PPM"></label><br>
-			Callsign: <label id="stat:callsign"></label><br>
-			Locator: <label id="stat:locator"></label><br>
-			Power in dBm: <label id="stat:tx_pwr_dbm"></label><br>
-			Frequencies cycle: <label id="stat:frequencies"></label><br>
-			TX: <label id="stat:WsprTX"></label><br>
-			TX mode: <label id="stat:WsprMode"></label><br>
-			Actual Frequency: <label id="stat:CurFreq"></label><br>
-			<br>
-			<label for="TestTone">TestTone On: </label>
-			<input type="text" name="WSPR:TESTTONE" id="WSPR:TESTTONE" value="28020000">
-			<input type="submit" id="WSPRStartTestTone" value="WSPR Start TestTone"><input type="submit" id="WSPRSStopTestTone" value="WSPRS Stop TestTone"><br><br>
+				<br>
+				<input type="radio" id="WSPROn" name="drone" value="huey">
+				<label for="WSPROn" id="LWSPROn">WSPR On</label>
+				<input type="radio" id="WSPROff" name="drone" value="dewey">
+				<label for="WSPROff" id="LWSPROff">WSPR Off</label>
+				<br>
+				<br>
+				Actual Time: <label id="stat:actualtime"></label><br>
+				Refresh time of informations: <label id="stat:infotime"></label><br>
+				GPS: <label id="stat:GPS"></label><br>
+				PPM: <label id="stat:PPM"></label><br>
+				Callsign: <label id="stat:callsign"></label><br>
+				Locator: <label id="stat:locator"></label><br>
+				Power in dBm: <label id="stat:tx_pwr_dbm"></label><br>
+				Frequencies cycle: <label id="stat:frequencies"></label><br>
+				TX: <label id="stat:WsprTX"></label><br>
+				TX mode: <label id="stat:WsprMode"></label><br>
+				Actual Frequency: <label id="stat:CurFreq"></label><br>
+				<br>
+				<label for="TestTone">TestTone On: </label>
+				<input type="text" name="WSPR:TESTTONE" id="WSPR:TESTTONE" value="28020000">
+				<input type="submit" id="WSPRStartTestTone" value="WSPR Start TestTone"><br><br>
+				<p style="text-align: center;"><input type="submit" id="WSPRSStopTestTone" value="WSPRS Stop"></p>
 			</div>
 		</div>
 	</div>

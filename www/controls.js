@@ -5,6 +5,7 @@ function bodyload()
 	showTime();
 	GetWsprInfo();
 	UpdateInfoTicks();
+	window.location="#STATUS";
 }
 
 function togle_M()
@@ -95,11 +96,12 @@ function GetWsprInfo(){
 function WSPRInfoDisplay(){
 	document.getElementById("stat:PPM").innerHTML=WSPRmetadata["PPM"];
 	document.getElementById("stat:WsprTX").innerHTML=WSPRmetadata["TRANSMITTING"];
+	if(WSPRmetadata["TRANSMITTING"]!="False"){document.getElementById("LWSPROn").className = "wspron_activate";}
 	document.getElementById("stat:WsprMode").innerHTML=WSPRmetadata["MODE"];
 	document.getElementById("stat:CurFreq").innerHTML=WSPRmetadata["FREQUENCY"]+"hz";
-	document.getElementById("WSPR").innerHTML=WSPRmetadata["LOGS"];
-	if(WSPRmetadata["RUN"]=="True" && WSPRmetadata["MODE"]=="wspr"){document.getElementById("WSPROn").checked = true;}
-	else{document.getElementById("WSPROff").checked = true;}
+	document.getElementById("wsprprocstdout").innerHTML=WSPRmetadata["LOGS"];
+	if(WSPRmetadata["RUN"]=="True" && WSPRmetadata["MODE"]=="wspr"){document.getElementById("WSPROn").checked = true;cancolor="green";}
+	else{document.getElementById("WSPROff").checked = true;cancolor="white";}
 	
 }
 
@@ -126,7 +128,7 @@ const gps_qual = ['Fix not valid', 'GPS fix ', 'Differential GPS fix, OmniSTAR V
 function GpsInfoDisplay(){
 	let GS = gridForLatLon(GPSmetadata.lat/100, GPSmetadata.lon/100);
 	document.getElementById("GPS").innerHTML=
-	"Time: "+GPSmetadata.timestamp+"<br>"+
+	"<br>Time: "+GPSmetadata.timestamp+"<br>"+
 	"GPS Quality indicator: "+gps_qual[GPSmetadata.gps_qual]+"<br>"+
 	"Number of Satellites in use: "+GPSmetadata.num_sats+"<br>"+
 	"Latitude: "+GPSmetadata.lat/100+"<br>"+
@@ -247,6 +249,7 @@ document.getElementById("WSPROff").addEventListener("change", function (event) {
 	});
 	XHR.open("GET", "SGWsprEnd");
 	XHR.send();
+	if(event.srcElement.checked){document.getElementById("LWSPROn").className = "wspron_deactivate";}
 });
 
 document.getElementById("WSPROn").addEventListener("change", function (event) {
@@ -258,6 +261,8 @@ document.getElementById("WSPROn").addEventListener("change", function (event) {
 	});
 	XHR.open("GET", "SGWsprGo");
 	XHR.send();
+	
+	if(event.srcElement.checked){document.getElementById("LWSPROn").className = "wspron_activate";}
 });
 
 function showTime(){
@@ -267,13 +272,19 @@ function showTime(){
     var m = date.getMinutes(); // 0 - 59
     var s = date.getSeconds(); // 0 - 59
     
+	let percent = (m % 2) ? 50 : 0;
+	percent += s*50/60;
+	
+	percent =  percent.toFixed(1) ;
+	
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
     
     var time = h + ":" + m + ":" + s ;
-    document.getElementById("stat:actualtime").innerText = time;
+    document.getElementById("stat:actualtime").innerText = time + " " + percent + "%";
     setTimeout(showTime, 1000);
+	drawCanPercent(percent);
     
 }
 
@@ -286,4 +297,21 @@ function UpdateInfoTicks(){
 	}
     setTimeout(UpdateInfoTicks, 1000);
     
+}
+
+
+var canvas = document.getElementById("percentcan");
+var ctx = canvas.getContext("2d");
+var centerX = canvas.width / 2;
+var centerY = canvas.height / 2;
+ctx.clearRect(0, 0, canvas.width, canvas.height);
+var cancolor="white"
+function drawCanPercent(percent) {
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	ctx.beginPath();
+	ctx.arc(centerX, centerY, 25/2,  1.5 * Math.PI, ((1.5+((2*percent)/100)) * Math.PI), false);
+	ctx.strokeStyle = cancolor;
+	ctx.lineWidth = 25;
+	ctx.stroke();
+	ctx.closePath();
 }
