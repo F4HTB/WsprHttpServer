@@ -1,0 +1,722 @@
+29 11 2021 17:15:21 Start webserver
+29 11 2021 17:15:21 Server started on 9000
+29 11 2021 17:15:39 receive:   192.168.1.33   /SGWsprGoTone?28010000
+29 11 2021 17:15:39 Wspr init thread with /usr/local/bin/wspr -s -t 28010000
+29 11 2021 17:15:39 send:   192.168.1.33   'OK'
+29 11 2021 17:15:39 Detected Raspberry Pi version 1
+29 11 2021 17:15:39 A test tone will be generated at frequency 28.010000 MHz
+29 11 2021 17:15:39 NTP will be used to calibrate the tone frequency
+29 11 2021 17:15:39 
+29 11 2021 17:15:39 Transmitting test tone on frequency 28.010000 MHz
+29 11 2021 17:15:39 Press CTRL-C to exit!
+29 11 2021 17:15:39   Obtained new ppm value: -3.16106
+29 11 2021 17:15:40 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:15:40 Wspr Try to get info
+29 11 2021 17:15:40 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 28.010000 MHz,PPM= -3.16106,MODE=tone,FREQUENCY=28.010000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 28.010000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 28.010000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.16106'
+29 11 2021 17:15:42 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:15:42 Wspr Try to get info
+29 11 2021 17:15:42 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 28.010000 MHz,PPM= -3.16106,MODE=tone,FREQUENCY=28.010000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 28.010000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 28.010000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.16106'
+29 11 2021 17:15:50 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:15:50 WSPR Process endind!
+29 11 2021 17:15:50 WSPR Process endind!
+29 11 2021 17:15:50 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:15:52 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:15:52 Wspr Try to get info
+29 11 2021 17:15:52 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:15:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:15:56 Wspr Try to get info
+29 11 2021 17:15:56 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:16:44 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:16:44 Wspr Try to get info
+29 11 2021 17:16:44 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:16:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:16:55 Wspr Try to get info
+29 11 2021 17:16:55 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:17:28 receive:   192.168.1.33   /SGWsprGoTone?28010000
+29 11 2021 17:17:28 Wspr init thread with /usr/local/bin/wspr -s -t 28010000
+29 11 2021 17:17:28 send:   192.168.1.33   'OK'
+29 11 2021 17:17:28 Detected Raspberry Pi version 1
+29 11 2021 17:17:28 A test tone will be generated at frequency 28.010000 MHz
+29 11 2021 17:17:28 NTP will be used to calibrate the tone frequency
+29 11 2021 17:17:28 
+29 11 2021 17:17:28 Transmitting test tone on frequency 28.010000 MHz
+29 11 2021 17:17:28 Press CTRL-C to exit!
+29 11 2021 17:17:28   Obtained new ppm value: -3.15346
+29 11 2021 17:17:29 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:17:29 Wspr Try to get info
+29 11 2021 17:17:29 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 28.010000 MHz,PPM= -3.15346,MODE=tone,FREQUENCY=28.010000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 28.010000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 28.010000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.15346'
+29 11 2021 17:17:32 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:17:33 WSPR Process endind!
+29 11 2021 17:17:33 WSPR Process endind!
+29 11 2021 17:17:33 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:17:34 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:17:34 Wspr Try to get info
+29 11 2021 17:17:34 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:17:46 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:17:46 Wspr Try to get info
+29 11 2021 17:17:46 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:17:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:17:56 Wspr Try to get info
+29 11 2021 17:17:56 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:18:18 receive:   192.168.1.33   /SGWsprGo
+29 11 2021 17:18:18 Wspr init thread with /usr/local/bin/wspr -s -r F4HTB JN38tg 0 10m 6m
+29 11 2021 17:18:18 send:   192.168.1.33   'OK'
+29 11 2021 17:18:18 Detected Raspberry Pi version 1
+29 11 2021 17:18:18 WSPR packet contents:
+29 11 2021 17:18:18   Callsign: F4HTB
+29 11 2021 17:18:18   Locator:  JN38TG
+29 11 2021 17:18:18   Power:    0 dBm
+29 11 2021 17:18:18 Requested TX frequencies:
+29 11 2021 17:18:18   28.126100 MHz
+29 11 2021 17:18:18   50.294500 MHz
+29 11 2021 17:18:18 Extra options:
+29 11 2021 17:18:18   NTP will be used to periodically calibrate the transmission frequency
+29 11 2021 17:18:18   Transmissions will continue forever until stopped with CTRL-C
+29 11 2021 17:18:18 
+29 11 2021 17:18:18 Ready to transmit (setup complete)...
+29 11 2021 17:18:18 Desired center frequency for WSPR transmission: 28.126100 MHz
+29 11 2021 17:18:18   Waiting for next WSPR transmission window...
+29 11 2021 17:18:19 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:18:19 Wspr Try to get info
+29 11 2021 17:18:19 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:18:48 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:18:48 Wspr Try to get info
+29 11 2021 17:18:48 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:18:57 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:18:57 Wspr Try to get info
+29 11 2021 17:18:57 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:19:15 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:19:15 Wspr Try to get info
+29 11 2021 17:19:15 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:19:17 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:19:17 Wspr Try to get info
+29 11 2021 17:19:17 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:19:17 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:19:17 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=10m 6m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:19:18 receive:   192.168.1.33   /SGgps
+29 11 2021 17:19:19 send:   192.168.1.33   <GGA(timestamp='17:19:19', lat='4816.85252', lat_dir='N', lon='00736.30656', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.7', altitude=216.4, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:19:54 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:19:54 Wspr Try to get info
+29 11 2021 17:19:54 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:20:01   Obtained new ppm value: -3.13109
+29 11 2021 17:20:01   TX started at: UTC 2021-11-29 17:20:01.014
+29 11 2021 17:20:04 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:20:04 Wspr Try to get info
+29 11 2021 17:20:04 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:20:01.014,PPM= -3.13109,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.13109<br>  TX started at: UTC 2021-11-29 17:20:01.014'
+29 11 2021 17:20:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:20:55 Wspr Try to get info
+29 11 2021 17:20:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:20:01.014,PPM= -3.13109,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.13109<br>  TX started at: UTC 2021-11-29 17:20:01.014'
+29 11 2021 17:21:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:21:05 Wspr Try to get info
+29 11 2021 17:21:05 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:20:01.014,PPM= -3.13109,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.13109<br>  TX started at: UTC 2021-11-29 17:20:01.014'
+29 11 2021 17:21:51   TX ended at:   UTC 2021-11-29 17:21:51.606 (110.592 s)
+29 11 2021 17:21:51 Desired center frequency for WSPR transmission: 50.294500 MHz
+29 11 2021 17:21:51   Waiting for next WSPR transmission window...
+29 11 2021 17:21:51 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:21:52 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=10m 6m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:21:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:21:55 Wspr Try to get info
+29 11 2021 17:21:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -3.13109,MODE=wspr,FREQUENCY=50.294500,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.13109<br>  TX started at: UTC 2021-11-29 17:20:01.014<br>  TX ended at:   UTC 2021-11-29 17:21:51.606 (110.592 s)<br>Desired center frequency for WSPR transmission: 50.294500 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:22:01   Obtained new ppm value: -3.10338
+29 11 2021 17:22:01   TX started at: UTC 2021-11-29 17:22:01.015
+29 11 2021 17:22:02 receive:   192.168.1.33   /SGSetConf?SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m%2010m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5+=Apply+=Restart
+29 11 2021 17:22:02 Setconf SERVER port 9000
+29 11 2021 17:22:02 Setconf SERVER log_file wsprhttp.log
+29 11 2021 17:22:02 Setconf BEACON callsign F4HTB
+29 11 2021 17:22:02 Setconf BEACON locator JN38tg
+29 11 2021 17:22:02 Setconf BEACON tx_pwr_dbm 0
+29 11 2021 17:22:02 Setconf BEACON frequencies 12m 10m
+29 11 2021 17:22:02 Setconf BEACON wsprexec /usr/local/bin/wspr
+29 11 2021 17:22:03 Setconf GPS serialport /dev/ttyAMA0
+29 11 2021 17:22:03 Setconf GPS baudrate 9600
+29 11 2021 17:22:03 Setconf GPS timeout 0.5
+29 11 2021 17:22:03 send:   192.168.1.33   'Config applied! You must click to Restart for apply some change.'
+29 11 2021 17:22:06 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:22:06 Wspr Try to get info
+29 11 2021 17:22:06 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:22:01.015,PPM= -3.10338,MODE=wspr,FREQUENCY=50.294500,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  28.126100 MHz<br>  50.294500 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.13109<br>  TX started at: UTC 2021-11-29 17:20:01.014<br>  TX ended at:   UTC 2021-11-29 17:21:51.606 (110.592 s)<br>Desired center frequency for WSPR transmission: 50.294500 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.10338<br>  TX started at: UTC 2021-11-29 17:22:01.015'
+29 11 2021 17:22:15 receive:   192.168.1.33   /SGrestart
+29 11 2021 17:22:26 Start webserver
+29 11 2021 17:22:26 Server started on 9000
+29 11 2021 17:22:27 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:22:27 Wspr Try to get info
+29 11 2021 17:22:27 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:22:27 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:22:27 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:22:27 receive:   192.168.1.33   /SGgps
+29 11 2021 17:22:29 send:   192.168.1.33   <GGA(timestamp='17:22:29', lat='4816.85257', lat_dir='N', lon='00736.30681', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.7', altitude=216.4, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:22:31 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:22:31 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:22:32 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:22:32 Wspr Try to get info
+29 11 2021 17:22:32 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:22:39 receive:   192.168.1.33   /SGWsprGoTone?28010000
+29 11 2021 17:22:39 Wspr init thread with /usr/local/bin/wspr -s -t 28010000
+29 11 2021 17:22:39 send:   192.168.1.33   'OK'
+29 11 2021 17:22:39 Detected Raspberry Pi version 1
+29 11 2021 17:22:39 A test tone will be generated at frequency 28.010000 MHz
+29 11 2021 17:22:39 NTP will be used to calibrate the tone frequency
+29 11 2021 17:22:39 
+29 11 2021 17:22:39 Transmitting test tone on frequency 28.010000 MHz
+29 11 2021 17:22:39 Press CTRL-C to exit!
+29 11 2021 17:22:39   Obtained new ppm value: -3.09528
+29 11 2021 17:22:40 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:22:40 Wspr Try to get info
+29 11 2021 17:22:40 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 28.010000 MHz,PPM= -3.09528,MODE=tone,FREQUENCY=28.010000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 28.010000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 28.010000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.09528'
+29 11 2021 17:22:43 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:22:43 WSPR Process endind!
+29 11 2021 17:22:43 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:22:44 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:22:44 Wspr Try to get info
+29 11 2021 17:22:44 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+                                                                                                                                        29 11 2021 17:27:02 Start webserver
+29 11 2021 17:27:02 Server started on 9000
+29 11 2021 17:27:04 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:27:04 Wspr Try to get info
+29 11 2021 17:27:04 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:27:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:27:09 Wspr Try to get info
+29 11 2021 17:27:09 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:27:31 receive:   192.168.1.33   /
+29 11 2021 17:27:32 receive:   192.168.1.33   /style.css
+29 11 2021 17:27:32 receive:   192.168.1.33   /controls.js
+29 11 2021 17:27:34 receive:   192.168.1.33   /logo.png
+29 11 2021 17:27:34 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:27:34 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:27:34 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:27:34 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:27:34 Wspr Try to get info
+29 11 2021 17:27:34 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:27:34 receive:   192.168.1.33   /SGgps
+29 11 2021 17:27:35 receive:   192.168.1.33   /SGgps
+29 11 2021 17:27:37 send:   192.168.1.33   <GGA(timestamp='17:27:37', lat='4816.85239', lat_dir='N', lon='00736.31006', lon_dir='E', gps_qual=1, num_sats='15', horizontal_dil='0.7', altitude=216.1, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:27:54 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:27:54 Wspr Try to get info
+29 11 2021 17:27:54 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:28:00 receive:   192.168.1.33   /
+29 11 2021 17:28:01 receive:   192.168.1.33   /style.css
+29 11 2021 17:28:01 receive:   192.168.1.33   /controls.js
+29 11 2021 17:28:02 receive:   192.168.1.33   /logo.png
+29 11 2021 17:28:02 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:28:02 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:28:02 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:28:02 receive:   192.168.1.33   /SGgps
+29 11 2021 17:28:04 send:   192.168.1.33   <GGA(timestamp='17:28:04', lat='4816.85240', lat_dir='N', lon='00736.30976', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.7', altitude=217.1, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:28:04 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:04 Wspr Try to get info
+29 11 2021 17:28:04 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:28:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:05 Wspr Try to get info
+29 11 2021 17:28:05 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:28:07 receive:   192.168.1.33   /SGWsprGoTone?14020000
+29 11 2021 17:28:08 Wspr init thread with /usr/local/bin/wspr -s -t 14020000
+29 11 2021 17:28:08 send:   192.168.1.33   'OK'
+29 11 2021 17:28:08 Detected Raspberry Pi version 1
+29 11 2021 17:28:08 A test tone will be generated at frequency 14.020000 MHz
+29 11 2021 17:28:08 NTP will be used to calibrate the tone frequency
+29 11 2021 17:28:08 
+29 11 2021 17:28:08 Transmitting test tone on frequency 14.020000 MHz
+29 11 2021 17:28:08 Press CTRL-C to exit!
+29 11 2021 17:28:08   Obtained new ppm value: -3.49118
+29 11 2021 17:28:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:09 Wspr Try to get info
+29 11 2021 17:28:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.49118,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.49118'
+29 11 2021 17:28:11 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:28:11 WSPR Process endind!
+29 11 2021 17:28:11 WSPR Process endind!
+29 11 2021 17:28:11 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:28:12 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:12 Wspr Try to get info
+29 11 2021 17:28:12 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:28:16 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:28:16 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:28:17 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:17 Wspr Try to get info
+29 11 2021 17:28:17 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:28:58 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:28:58 Wspr Try to get info
+29 11 2021 17:28:58 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:29:08 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:29:08 Wspr Try to get info
+29 11 2021 17:29:08 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:29:58 Start webserver
+29 11 2021 17:29:58 Server started on 9000
+29 11 2021 17:29:58 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:29:58 Wspr Try to get info
+29 11 2021 17:29:58 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:30:03 receive:   192.168.1.33   /
+29 11 2021 17:30:04 receive:   192.168.1.33   /controls.js
+29 11 2021 17:30:04 receive:   192.168.1.33   /style.css
+29 11 2021 17:30:04 receive:   192.168.1.33   /logo.png
+29 11 2021 17:30:04 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:30:04 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:30:04 receive:   192.168.1.33   /SGgps
+29 11 2021 17:30:06 send:   192.168.1.33   <GGA(timestamp='17:30:06', lat='4816.85277', lat_dir='N', lon='00736.30928', lon_dir='E', gps_qual=1, num_sats='17', horizontal_dil='0.6', altitude=218.5, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:30:06 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:30:06 Wspr Try to get info
+29 11 2021 17:30:06 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:30:06 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:30:06 Wspr Try to get info
+29 11 2021 17:30:06 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:30:06 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:30:08 receive:   192.168.1.33   /SGWsprGoTone?14020000
+29 11 2021 17:30:08 Wspr init thread with /usr/local/bin/wspr -s -t 14020000
+29 11 2021 17:30:08 send:   192.168.1.33   'OK'
+29 11 2021 17:30:08 Detected Raspberry Pi version 1
+29 11 2021 17:30:08 A test tone will be generated at frequency 14.020000 MHz
+29 11 2021 17:30:08 NTP will be used to calibrate the tone frequency
+29 11 2021 17:30:08 
+29 11 2021 17:30:08 Transmitting test tone on frequency 14.020000 MHz
+29 11 2021 17:30:08 Press CTRL-C to exit!
+29 11 2021 17:30:08   Obtained new ppm value: -3.46021
+29 11 2021 17:30:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:30:09 Wspr Try to get info
+29 11 2021 17:30:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.46021,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.46021'
+29 11 2021 17:30:12 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:12 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:13 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:13 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:13 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:13 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:13 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:14 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:14 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:14 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:30:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:30:55 Wspr Try to get info
+29 11 2021 17:30:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.46021,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.46021'
+29 11 2021 17:31:04 Start webserver
+29 11 2021 17:31:04 Server started on 9000
+29 11 2021 17:31:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:31:07 Wspr Try to get info
+29 11 2021 17:31:07 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:31:07 receive:   192.168.1.33   /SGWsprGoTone?14020000
+29 11 2021 17:31:07 Wspr init thread with /usr/local/bin/wspr -s -t 14020000
+29 11 2021 17:31:07 send:   192.168.1.33   'OK'
+29 11 2021 17:31:07 Detected Raspberry Pi version 1
+29 11 2021 17:31:07 A test tone will be generated at frequency 14.020000 MHz
+29 11 2021 17:31:07 NTP will be used to calibrate the tone frequency
+29 11 2021 17:31:07 
+29 11 2021 17:31:07 Transmitting test tone on frequency 14.020000 MHz
+29 11 2021 17:31:07 Press CTRL-C to exit!
+29 11 2021 17:31:07   Obtained new ppm value: -3.41721
+29 11 2021 17:31:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:31:09 Wspr Try to get info
+29 11 2021 17:31:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.41721,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.41721'
+29 11 2021 17:31:14 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:31:14 WSPR Process endind!
+29 11 2021 17:31:14 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:31:17 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:31:17 Wspr Try to get info
+29 11 2021 17:31:17 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:31:50 receive:   192.168.1.33   /SGWsprGo
+29 11 2021 17:31:50 Wspr init thread with /usr/local/bin/wspr -s -r F4HTB JN38tg 0 12m 10m
+29 11 2021 17:31:50 send:   192.168.1.33   'OK'
+29 11 2021 17:31:50 Detected Raspberry Pi version 1
+29 11 2021 17:31:50 WSPR packet contents:
+29 11 2021 17:31:50   Callsign: F4HTB
+29 11 2021 17:31:50   Locator:  JN38TG
+29 11 2021 17:31:50   Power:    0 dBm
+29 11 2021 17:31:50 Requested TX frequencies:
+29 11 2021 17:31:50   24.926100 MHz
+29 11 2021 17:31:50   28.126100 MHz
+29 11 2021 17:31:50 Extra options:
+29 11 2021 17:31:50   NTP will be used to periodically calibrate the transmission frequency
+29 11 2021 17:31:50   Transmissions will continue forever until stopped with CTRL-C
+29 11 2021 17:31:50 
+29 11 2021 17:31:50 Ready to transmit (setup complete)...
+29 11 2021 17:31:50 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:31:50   Waiting for next WSPR transmission window...
+29 11 2021 17:31:51 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:31:51 Wspr Try to get info
+29 11 2021 17:31:51 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:31:59 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:31:59 Wspr Try to get info
+29 11 2021 17:31:59 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:32:01   Obtained new ppm value: -3.37947
+29 11 2021 17:32:01   TX started at: UTC 2021-11-29 17:32:01.018
+29 11 2021 17:32:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:09 Wspr Try to get info
+29 11 2021 17:32:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:41 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:41 Wspr Try to get info
+29 11 2021 17:32:41 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:44 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:44 Wspr Try to get info
+29 11 2021 17:32:44 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:44 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:32:44 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:32:44 receive:   192.168.1.33   /SGgps
+29 11 2021 17:32:45 send:   192.168.1.33   <GGA(timestamp='17:32:45', lat='4816.85247', lat_dir='N', lon='00736.30936', lon_dir='E', gps_qual=1, num_sats='15', horizontal_dil='0.7', altitude=219.2, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:32:48 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:48 Wspr Try to get info
+29 11 2021 17:32:48 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:51 receive:   192.168.1.33   /SGgps
+29 11 2021 17:32:52 send:   192.168.1.33   <GGA(timestamp='17:32:52', lat='4816.85248', lat_dir='N', lon='00736.30942', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.6', altitude=219.2, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:32:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:55 Wspr Try to get info
+29 11 2021 17:32:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:55 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:32:55 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:32:58 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:32:58 Wspr Try to get info
+29 11 2021 17:32:58 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:32:58 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:32:58 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:32:58 receive:   192.168.1.33   /SGgps
+29 11 2021 17:33:00 send:   192.168.1.33   <GGA(timestamp='17:33:00', lat='4816.85252', lat_dir='N', lon='00736.30940', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.6', altitude=219.2, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:33:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:33:05 Wspr Try to get info
+29 11 2021 17:33:05 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:32:01.018,PPM= -3.37947,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018'
+29 11 2021 17:33:51   TX ended at:   UTC 2021-11-29 17:33:51.610 (110.592 s)
+29 11 2021 17:33:51 Desired center frequency for WSPR transmission: 28.126100 MHz
+29 11 2021 17:33:51   Waiting for next WSPR transmission window...
+29 11 2021 17:33:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:33:56 Wspr Try to get info
+29 11 2021 17:33:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -3.37947,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018<br>  TX ended at:   UTC 2021-11-29 17:33:51.610 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:34:01   Obtained new ppm value: -3.30182
+29 11 2021 17:34:01   TX started at: UTC 2021-11-29 17:34:01.019
+29 11 2021 17:34:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:34:05 Wspr Try to get info
+29 11 2021 17:34:05 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:34:01.019,PPM= -3.30182,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.37947<br>  TX started at: UTC 2021-11-29 17:32:01.018<br>  TX ended at:   UTC 2021-11-29 17:33:51.610 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.30182<br>  TX started at: UTC 2021-11-29 17:34:01.019'
+29 11 2021 17:34:48 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:34:48 WSPR Process endind!
+29 11 2021 17:34:48 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:34:49 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:34:49 Wspr Try to get info
+29 11 2021 17:34:49 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:34:51 receive:   192.168.1.33   /SGWsprGo
+29 11 2021 17:34:51 Wspr init thread with /usr/local/bin/wspr -s -r F4HTB JN38tg 0 12m 10m
+29 11 2021 17:34:51 send:   192.168.1.33   'OK'
+29 11 2021 17:34:51 Detected Raspberry Pi version 1
+29 11 2021 17:34:51 WSPR packet contents:
+29 11 2021 17:34:51   Callsign: F4HTB
+29 11 2021 17:34:51   Locator:  JN38TG
+29 11 2021 17:34:51   Power:    0 dBm
+29 11 2021 17:34:51 Requested TX frequencies:
+29 11 2021 17:34:51   24.926100 MHz
+29 11 2021 17:34:51   28.126100 MHz
+29 11 2021 17:34:51 Extra options:
+29 11 2021 17:34:51   NTP will be used to periodically calibrate the transmission frequency
+29 11 2021 17:34:51   Transmissions will continue forever until stopped with CTRL-C
+29 11 2021 17:34:51 
+29 11 2021 17:34:51 Ready to transmit (setup complete)...
+29 11 2021 17:34:51 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:34:51   Waiting for next WSPR transmission window...
+29 11 2021 17:34:52 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:34:52 Wspr Try to get info
+29 11 2021 17:34:52 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:34:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:34:56 Wspr Try to get info
+29 11 2021 17:34:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:35:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:35:07 Wspr Try to get info
+29 11 2021 17:35:07 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:35:59 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:35:59 Wspr Try to get info
+29 11 2021 17:35:59 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:36:01   Obtained new ppm value: -3.22258
+29 11 2021 17:36:01   TX started at: UTC 2021-11-29 17:36:01.018
+29 11 2021 17:36:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:36:09 Wspr Try to get info
+29 11 2021 17:36:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:36:01.018,PPM= -3.22258,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.22258<br>  TX started at: UTC 2021-11-29 17:36:01.018'
+29 11 2021 17:36:59 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:36:59 Wspr Try to get info
+29 11 2021 17:36:59 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:36:01.018,PPM= -3.22258,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.22258<br>  TX started at: UTC 2021-11-29 17:36:01.018'
+29 11 2021 17:37:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:37:09 Wspr Try to get info
+29 11 2021 17:37:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:36:01.018,PPM= -3.22258,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.22258<br>  TX started at: UTC 2021-11-29 17:36:01.018'
+29 11 2021 17:37:18 receive:   192.168.1.33   /
+29 11 2021 17:37:19 receive:   192.168.1.33   /style.css
+29 11 2021 17:37:19 receive:   192.168.1.33   /logo.png
+29 11 2021 17:37:20 receive:   192.168.1.33   /controls.js
+29 11 2021 17:37:20 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:37:20 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:37:20 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:37:20 Wspr Try to get info
+29 11 2021 17:37:20 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:36:01.018,PPM= -3.22258,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.22258<br>  TX started at: UTC 2021-11-29 17:36:01.018'
+29 11 2021 17:37:20 receive:   192.168.1.33   /SGgps
+29 11 2021 17:37:22 send:   192.168.1.33   <GGA(timestamp='17:37:22', lat='4816.85324', lat_dir='N', lon='00736.30921', lon_dir='E', gps_qual=1, num_sats='17', horizontal_dil='0.6', altitude=219.0, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:37:22 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:37:32 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:37:32 WSPR Process endind!
+29 11 2021 17:37:32 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:37:33 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:37:33 Wspr Try to get info
+29 11 2021 17:37:33 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:37:35 receive:   192.168.1.33   /SGWsprGo
+29 11 2021 17:37:35 Wspr init thread with /usr/local/bin/wspr -s -r F4HTB JN38tg 0 12m 10m
+29 11 2021 17:37:35 send:   192.168.1.33   'OK'
+29 11 2021 17:37:35 Detected Raspberry Pi version 1
+29 11 2021 17:37:35 WSPR packet contents:
+29 11 2021 17:37:35   Callsign: F4HTB
+29 11 2021 17:37:35   Locator:  JN38TG
+29 11 2021 17:37:35   Power:    0 dBm
+29 11 2021 17:37:35 Requested TX frequencies:
+29 11 2021 17:37:35   24.926100 MHz
+29 11 2021 17:37:35   28.126100 MHz
+29 11 2021 17:37:35 Extra options:
+29 11 2021 17:37:35   NTP will be used to periodically calibrate the transmission frequency
+29 11 2021 17:37:35   Transmissions will continue forever until stopped with CTRL-C
+29 11 2021 17:37:35 
+29 11 2021 17:37:35 Ready to transmit (setup complete)...
+29 11 2021 17:37:35 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:37:35   Waiting for next WSPR transmission window...
+29 11 2021 17:37:36 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:37:36 Wspr Try to get info
+29 11 2021 17:37:36 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:37:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:37:56 Wspr Try to get info
+29 11 2021 17:37:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:38:01   Obtained new ppm value: -3.1667
+29 11 2021 17:38:01   TX started at: UTC 2021-11-29 17:38:01.015
+29 11 2021 17:38:06 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:38:06 Wspr Try to get info
+29 11 2021 17:38:06 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:38:01.015,PPM= -3.1667,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.1667<br>  TX started at: UTC 2021-11-29 17:38:01.015'
+29 11 2021 17:38:45 receive:   192.168.1.33   /
+29 11 2021 17:38:45 receive:   192.168.1.33   /style.css
+29 11 2021 17:38:45 receive:   192.168.1.33   /controls.js
+29 11 2021 17:38:46 receive:   192.168.1.33   /logo.png
+29 11 2021 17:38:46 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:38:46 receive:   192.168.1.33   /SGgps
+29 11 2021 17:38:48 send:   192.168.1.33   <GGA(timestamp='17:38:48', lat='4816.85335', lat_dir='N', lon='00736.30956', lon_dir='E', gps_qual=1, num_sats='18', horizontal_dil='0.6', altitude=219.0, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:38:48 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:38:48 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:38:48 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:38:48 Wspr Try to get info
+29 11 2021 17:38:48 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:38:01.015,PPM= -3.1667,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.1667<br>  TX started at: UTC 2021-11-29 17:38:01.015'
+29 11 2021 17:38:51 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:38:51 WSPR Process endind!
+29 11 2021 17:38:51 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:38:52 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:38:52 Wspr Try to get info
+29 11 2021 17:38:52 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:38:55 receive:   192.168.1.33   /SGWsprGoTone?14020000
+29 11 2021 17:38:55 Wspr init thread with /usr/local/bin/wspr -s -t 14020000
+29 11 2021 17:38:55 send:   192.168.1.33   'OK'
+29 11 2021 17:38:55 Detected Raspberry Pi version 1
+29 11 2021 17:38:55 A test tone will be generated at frequency 14.020000 MHz
+29 11 2021 17:38:55 NTP will be used to calibrate the tone frequency
+29 11 2021 17:38:55 
+29 11 2021 17:38:55 Transmitting test tone on frequency 14.020000 MHz
+29 11 2021 17:38:55 Press CTRL-C to exit!
+29 11 2021 17:38:55   Obtained new ppm value: -3.13712
+29 11 2021 17:38:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:38:56 Wspr Try to get info
+29 11 2021 17:38:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.13712,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.13712'
+29 11 2021 17:38:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:38:56 Wspr Try to get info
+29 11 2021 17:38:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=Transmitting test tone on frequency 14.020000 MHz,PPM= -3.13712,MODE=tone,FREQUENCY=14.020000,LOGS=Detected Raspberry Pi version 1<br>A test tone will be generated at frequency 14.020000 MHz<br>NTP will be used to calibrate the tone frequency<br><br>Transmitting test tone on frequency 14.020000 MHz<br>Press CTRL-C to exit!<br>  Obtained new ppm value: -3.13712'
+29 11 2021 17:39:05 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:39:05 WSPR Process endind!
+29 11 2021 17:39:05 WSPR Process endind!
+29 11 2021 17:39:05 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:39:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:39:07 Wspr Try to get info
+29 11 2021 17:39:07 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:39:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:39:07 Wspr Try to get info
+29 11 2021 17:39:07 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:39:58 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:39:58 Wspr Try to get info
+29 11 2021 17:39:58 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:40:08 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:08 Wspr Try to get info
+29 11 2021 17:40:08 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:40:11 receive:   192.168.1.33   /
+29 11 2021 17:40:11 receive:   192.168.1.33   /style.css
+29 11 2021 17:40:11 receive:   192.168.1.33   /controls.js
+29 11 2021 17:40:12 receive:   192.168.1.33   /logo.png
+29 11 2021 17:40:12 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:40:13 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:40:13 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:40:13 receive:   192.168.1.33   /SGgps
+29 11 2021 17:40:14 send:   192.168.1.33   <GGA(timestamp='17:40:14', lat='4816.85326', lat_dir='N', lon='00736.30903', lon_dir='E', gps_qual=1, num_sats='19', horizontal_dil='0.6', altitude=219.0, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:40:14 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:14 Wspr Try to get info
+29 11 2021 17:40:14 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:40:34 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:40:35 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:40:36 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:36 Wspr Try to get info
+29 11 2021 17:40:36 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:40:38 receive:   192.168.1.33   /SGWsprGo
+29 11 2021 17:40:38 Wspr init thread with /usr/local/bin/wspr -s -r F4HTB JN38tg 0 12m 10m
+29 11 2021 17:40:38 send:   192.168.1.33   'OK'
+29 11 2021 17:40:38 Detected Raspberry Pi version 1
+29 11 2021 17:40:38 WSPR packet contents:
+29 11 2021 17:40:38   Callsign: F4HTB
+29 11 2021 17:40:39   Locator:  JN38TG
+29 11 2021 17:40:39   Power:    0 dBm
+29 11 2021 17:40:39 Requested TX frequencies:
+29 11 2021 17:40:39   24.926100 MHz
+29 11 2021 17:40:39   28.126100 MHz
+29 11 2021 17:40:39 Extra options:
+29 11 2021 17:40:39   NTP will be used to periodically calibrate the transmission frequency
+29 11 2021 17:40:39   Transmissions will continue forever until stopped with CTRL-C
+29 11 2021 17:40:39 
+29 11 2021 17:40:39 Ready to transmit (setup complete)...
+29 11 2021 17:40:39 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:40:39   Waiting for next WSPR transmission window...
+29 11 2021 17:40:40 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:40 Wspr Try to get info
+29 11 2021 17:40:40 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:40:42 receive:   192.168.1.33   /
+29 11 2021 17:40:43 receive:   192.168.1.33   /style.css
+29 11 2021 17:40:43 receive:   192.168.1.33   /controls.js
+29 11 2021 17:40:43 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:40:43 receive:   192.168.1.33   /logo.png
+29 11 2021 17:40:43 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:40:44 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:40:44 receive:   192.168.1.33   /SGgps
+29 11 2021 17:40:45 send:   192.168.1.33   <GGA(timestamp='17:40:45', lat='4816.85316', lat_dir='N', lon='00736.30892', lon_dir='E', gps_qual=1, num_sats='18', horizontal_dil='0.6', altitude=219.0, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:40:45 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:45 Wspr Try to get info
+29 11 2021 17:40:45 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:40:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:40:55 Wspr Try to get info
+29 11 2021 17:40:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:41:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:41:05 Wspr Try to get info
+29 11 2021 17:41:05 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:41:12 receive:   192.168.1.33   /
+29 11 2021 17:41:12 receive:   192.168.1.33   /controls.js
+29 11 2021 17:41:12 receive:   192.168.1.33   /style.css
+29 11 2021 17:41:13 receive:   192.168.1.33   /logo.png
+29 11 2021 17:41:13 receive:   192.168.1.33   /favicon.ico
+29 11 2021 17:41:13 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:41:13 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:41:13 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:41:13 Wspr Try to get info
+29 11 2021 17:41:13 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:41:13 receive:   192.168.1.33   /SGgps
+29 11 2021 17:41:14 send:   192.168.1.33   <GGA(timestamp='17:41:14', lat='4816.85303', lat_dir='N', lon='00736.30910', lon_dir='E', gps_qual=1, num_sats='18', horizontal_dil='0.6', altitude=218.9, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:41:54 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:41:54 Wspr Try to get info
+29 11 2021 17:41:54 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM=0,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:42:01   Obtained new ppm value: -3.07141
+29 11 2021 17:42:01   TX started at: UTC 2021-11-29 17:42:01.016
+29 11 2021 17:42:04 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:42:04 Wspr Try to get info
+29 11 2021 17:42:04 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:42:01.016,PPM= -3.07141,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016'
+29 11 2021 17:42:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:42:56 Wspr Try to get info
+29 11 2021 17:42:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:42:01.016,PPM= -3.07141,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016'
+29 11 2021 17:43:05 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:43:05 Wspr Try to get info
+29 11 2021 17:43:05 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:42:01.016,PPM= -3.07141,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016'
+29 11 2021 17:43:51   TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)
+29 11 2021 17:43:51 Desired center frequency for WSPR transmission: 28.126100 MHz
+29 11 2021 17:43:51   Waiting for next WSPR transmission window...
+29 11 2021 17:43:55 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:43:55 Wspr Try to get info
+29 11 2021 17:43:55 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -3.07141,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016<br>  TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:44:01   Obtained new ppm value: -3.03516
+29 11 2021 17:44:01   TX started at: UTC 2021-11-29 17:44:01.016
+29 11 2021 17:44:06 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:44:06 Wspr Try to get info
+29 11 2021 17:44:06 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:44:01.016,PPM= -3.03516,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016<br>  TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.03516<br>  TX started at: UTC 2021-11-29 17:44:01.016'
+29 11 2021 17:44:57 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:44:57 Wspr Try to get info
+29 11 2021 17:44:57 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:44:01.016,PPM= -3.03516,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016<br>  TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.03516<br>  TX started at: UTC 2021-11-29 17:44:01.016'
+29 11 2021 17:45:11 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:45:11 Wspr Try to get info
+29 11 2021 17:45:11 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:44:01.016,PPM= -3.03516,MODE=wspr,FREQUENCY=28.126100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016<br>  TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.03516<br>  TX started at: UTC 2021-11-29 17:44:01.016'
+29 11 2021 17:45:51   TX ended at:   UTC 2021-11-29 17:45:51.608 (110.592 s)
+29 11 2021 17:45:51 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:45:51   Waiting for next WSPR transmission window...
+29 11 2021 17:45:59 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:45:59 Wspr Try to get info
+29 11 2021 17:45:59 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -3.03516,MODE=wspr,FREQUENCY=24.926100,LOGS=Detected Raspberry Pi version 1<br>WSPR packet contents:<br>  Callsign: F4HTB<br>  Locator:  JN38TG<br>  Power:    0 dBm<br>Requested TX frequencies:<br>  24.926100 MHz<br>  28.126100 MHz<br>Extra options:<br>  NTP will be used to periodically calibrate the transmission frequency<br>  Transmissions will continue forever until stopped with CTRL-C<br><br>Ready to transmit (setup complete)...<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.07141<br>  TX started at: UTC 2021-11-29 17:42:01.016<br>  TX ended at:   UTC 2021-11-29 17:43:51.608 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -3.03516<br>  TX started at: UTC 2021-11-29 17:44:01.016<br>  TX ended at:   UTC 2021-11-29 17:45:51.608 (110.592 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:46:01   Obtained new ppm value: -3.00333
+29 11 2021 17:46:01   TX started at: UTC 2021-11-29 17:46:01.007
+29 11 2021 17:46:09 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:46:09 Wspr Try to get info
+29 11 2021 17:46:09 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:46:01.007,PPM= -3.00333,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007'
+29 11 2021 17:47:02 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:47:02 Wspr Try to get info
+29 11 2021 17:47:02 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:46:01.007,PPM= -3.00333,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007'
+29 11 2021 17:47:11 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:47:11 Wspr Try to get info
+29 11 2021 17:47:11 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:46:01.007,PPM= -3.00333,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007'
+29 11 2021 17:47:51   TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)
+29 11 2021 17:47:51 Desired center frequency for WSPR transmission: 28.126100 MHz
+29 11 2021 17:47:51   Waiting for next WSPR transmission window...
+29 11 2021 17:48:01   Obtained new ppm value: -2.96857
+29 11 2021 17:48:01   TX started at: UTC 2021-11-29 17:48:01.018
+29 11 2021 17:48:02 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:48:02 Wspr Try to get info
+29 11 2021 17:48:02 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:48:12 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:48:12 Wspr Try to get info
+29 11 2021 17:48:12 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:48:59 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:48:59 Wspr Try to get info
+29 11 2021 17:48:59 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:02 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:02 Wspr Try to get info
+29 11 2021 17:49:02 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:09 receive:   192.168.1.33   /SGgps
+29 11 2021 17:49:10 send:   192.168.1.33   <GGA(timestamp='17:49:10', lat='4816.85187', lat_dir='N', lon='00736.30743', lon_dir='E', gps_qual=1, num_sats='17', horizontal_dil='0.6', altitude=218.7, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:49:16 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:16 Wspr Try to get info
+29 11 2021 17:49:16 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:16 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:49:16 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:49:16 receive:   192.168.1.33   /SGgps
+29 11 2021 17:49:18 send:   192.168.1.33   <GGA(timestamp='17:49:18', lat='4816.85182', lat_dir='N', lon='00736.30738', lon_dir='E', gps_qual=1, num_sats='17', horizontal_dil='0.6', altitude=218.7, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:49:24 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:24 Wspr Try to get info
+29 11 2021 17:49:24 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:26 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:26 Wspr Try to get info
+29 11 2021 17:49:26 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:26 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:49:26 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:49:26 receive:   192.168.1.33   /SGgps
+29 11 2021 17:49:28 send:   192.168.1.33   <GGA(timestamp='17:49:28', lat='4816.85177', lat_dir='N', lon='00736.30734', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.6', altitude=218.7, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:49:33 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:33 Wspr Try to get info
+29 11 2021 17:49:33 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:34 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:34 Wspr Try to get info
+29 11 2021 17:49:34 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:48:01.018,PPM= -2.96857,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018'
+29 11 2021 17:49:34 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:49:34 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'
+29 11 2021 17:49:34 receive:   192.168.1.33   /SGgps
+29 11 2021 17:49:36 send:   192.168.1.33   <GGA(timestamp='17:49:36', lat='4816.85176', lat_dir='N', lon='00736.30729', lon_dir='E', gps_qual=1, num_sats='16', horizontal_dil='0.6', altitude=218.7, altitude_units='M', geo_sep='0.0', geo_sep_units='M', age_gps_data='', ref_station_id='')>
+29 11 2021 17:49:51   TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)
+29 11 2021 17:49:51 Desired center frequency for WSPR transmission: 24.926100 MHz
+29 11 2021 17:49:51   Waiting for next WSPR transmission window...
+29 11 2021 17:49:56 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:49:56 Wspr Try to get info
+29 11 2021 17:49:56 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -2.96857,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018<br>  TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:50:01   Obtained new ppm value: -2.94408
+29 11 2021 17:50:01   TX started at: UTC 2021-11-29 17:50:01.019
+29 11 2021 17:50:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:50:07 Wspr Try to get info
+29 11 2021 17:50:07 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:50:01.019,PPM= -2.94408,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018<br>  TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.94408<br>  TX started at: UTC 2021-11-29 17:50:01.019'
+29 11 2021 17:50:58 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:50:58 Wspr Try to get info
+29 11 2021 17:50:58 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:50:01.019,PPM= -2.94408,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018<br>  TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.94408<br>  TX started at: UTC 2021-11-29 17:50:01.019'
+29 11 2021 17:51:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:51:07 Wspr Try to get info
+29 11 2021 17:51:07 send:   192.168.1.33   'RUN=True,TRANSMITTING=  TX started at: UTC 2021-11-29 17:50:01.019,PPM= -2.94408,MODE=wspr,FREQUENCY=24.926100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018<br>  TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.94408<br>  TX started at: UTC 2021-11-29 17:50:01.019'
+29 11 2021 17:51:51   TX ended at:   UTC 2021-11-29 17:51:51.611 (110.593 s)
+29 11 2021 17:51:51 Desired center frequency for WSPR transmission: 28.126100 MHz
+29 11 2021 17:51:51   Waiting for next WSPR transmission window...
+29 11 2021 17:51:57 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:51:57 Wspr Try to get info
+29 11 2021 17:51:58 send:   192.168.1.33   'RUN=True,TRANSMITTING=  Waiting for next WSPR transmission window...,PPM= -2.94408,MODE=wspr,FREQUENCY=28.126100,LOGS=  Obtained new ppm value: -3.00333<br>  TX started at: UTC 2021-11-29 17:46:01.007<br>  TX ended at:   UTC 2021-11-29 17:47:51.599 (110.592 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.96857<br>  TX started at: UTC 2021-11-29 17:48:01.018<br>  TX ended at:   UTC 2021-11-29 17:49:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 24.926100 MHz<br>  Waiting for next WSPR transmission window...<br>  Obtained new ppm value: -2.94408<br>  TX started at: UTC 2021-11-29 17:50:01.019<br>  TX ended at:   UTC 2021-11-29 17:51:51.611 (110.593 s)<br>Desired center frequency for WSPR transmission: 28.126100 MHz<br>  Waiting for next WSPR transmission window...'
+29 11 2021 17:52:01   Obtained new ppm value: -2.9106
+29 11 2021 17:52:01   TX started at: UTC 2021-11-29 17:52:01.015
+29 11 2021 17:52:06 receive:   192.168.1.33   /SGWsprEnd
+29 11 2021 17:52:06 WSPR Process endind!
+29 11 2021 17:52:06 send:   192.168.1.33   'WSPRterminate'
+29 11 2021 17:52:07 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:52:07 Wspr Try to get info
+29 11 2021 17:52:07 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:52:08 receive:   192.168.1.33   /SGWsprStatus
+29 11 2021 17:52:08 Wspr Try to get info
+29 11 2021 17:52:08 send:   192.168.1.33   'RUN=False,TRANSMITTING=False,PPM=0,MODE=No,FREQUENCY=0,LOGS='
+29 11 2021 17:52:20 receive:   192.168.1.33   /SGGetConf
+29 11 2021 17:52:20 send:   192.168.1.33   'SERVER:port=9000+SERVER:log_file=wsprhttp.log+BEACON:callsign=F4HTB+BEACON:locator=JN38tg+BEACON:tx_pwr_dbm=0+BEACON:frequencies=12m 10m+BEACON:wsprexec=/usr/local/bin/wspr+GPS:serialport=/dev/ttyAMA0+GPS:baudrate=9600+GPS:timeout=0.5'

@@ -14,6 +14,7 @@ import time
 import configparser
 import subprocess
 import threading  
+import signal
 
 ### Configuration ###########################################################################
 
@@ -124,6 +125,7 @@ class WSPRThread (threading.Thread):
 		global WSPRstatus 
 		global WSPRT_data_lock
 		addlog("WSPR Process endind!")
+		self.WSPRPross.send_signal(signal.SIGINT)
 		self.WSPRPross.kill()
 		self.WSPRPross.terminate()
 		with WSPRT_data_lock:
